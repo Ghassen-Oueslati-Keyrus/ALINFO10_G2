@@ -44,11 +44,6 @@ public class Etudiant {
         this.email = email;
         this.phone = phone;
     }
-<<<<<<< HEAD
-     public String toString(){
-        return
-                "Hello Ichrak, this is etudiant Model !";
-=======
 
     @Override
     public boolean equals(Object o) {
@@ -61,6 +56,11 @@ public class Etudiant {
     @Override
     public int hashCode() {
         return Objects.hash(name, id, email, phone);
->>>>>>> 95a253734b149dc3226224880390c4b54b43d4bd
     }
+
+       public String toString(){
+        return
+                "Hello ichrak, this is Etudiant !";
+    }
+
 }
