@@ -62,8 +62,13 @@ public class Etudiant {
 
     }
 
-       public String toString(){
-        return
-                "Hello ichrak, this is Etudiant !";
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Etudiant{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
 }
