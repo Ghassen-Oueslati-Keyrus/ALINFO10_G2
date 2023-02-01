@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Universite {
     public String id ;
     public String name;
@@ -29,7 +31,11 @@ public class Universite {
     public void setAdress(String adresse) {
         this.adresse = adresse;
     }
-            
+
+    public String toString(){
+        return
+                "Hello oumaima, this is universite !";
+    }
 
 
 

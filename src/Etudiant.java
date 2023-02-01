@@ -35,4 +35,11 @@ public class Etudiant {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    public Etudiant(String name, String id, String email, String phone) {
+        this.name = name;
+        this.id = id;
+        this.email = email;
+        this.phone = phone;
+    }
 }
