@@ -1,8 +1,8 @@
 public class Etudiant {
-    private  String name;
-    private  String id;
-    private  String groupe;
-    private  String mail;
-    private  String phone;
+    private String name;
+    private String id;
+    private String email;
+    private String phone;
+
 
 }
