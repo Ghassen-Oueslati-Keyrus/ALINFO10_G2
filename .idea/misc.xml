@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="temurin-17" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="18" project-jdk-type="JavaSDK">
+>>>>>>> 0ae602f8f32614ada9d975a678681e16604e4322
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
