@@ -29,13 +29,7 @@ public class Universite {
     public void setAdress(String adresse) {
         this.adresse = adresse;
     }
-            
-
-
-
-
-}
-
-
-
+      public Universite(){
+        
+      }      
 }
