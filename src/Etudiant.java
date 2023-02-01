@@ -58,9 +58,12 @@ public class Etudiant {
         return Objects.hash(name, id, email, phone);
     }
 
+    public Etudiant(){
+
+    }
+
        public String toString(){
         return
                 "Hello ichrak, this is Etudiant !";
     }
-
 }
