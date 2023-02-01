@@ -1,7 +1,9 @@
 public class Matiere {
     public String id ;
-    public String name;
+    public String Matiere_Name;
     public String professeur;
+    public String coefficient;
+
     public String universite;
 
     
