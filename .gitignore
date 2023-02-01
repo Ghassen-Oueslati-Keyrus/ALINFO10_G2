@@ -1,4 +1,5 @@
 target/
+<<<<<<< HEAD
 
 .idea
 
@@ -6,3 +7,10 @@ target/
 *.iml
 
 
+=======
+ feature_add_etudiant
+.idea
+.idea/
+*.iml
+ main
+>>>>>>> b3da4aedb4ce5f8a82201128c33a38c972aca938

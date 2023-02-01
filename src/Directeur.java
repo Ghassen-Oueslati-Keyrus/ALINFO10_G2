@@ -30,4 +30,6 @@ public class Directeur {
     public int hashCode() {
         return Objects.hash(idDirecteur, nomDirecteur);
     }
+
+
 }

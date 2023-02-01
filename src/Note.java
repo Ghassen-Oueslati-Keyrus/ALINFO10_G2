@@ -1,4 +1,4 @@
-public class Note {
+class Note {
  private String id;
     private String id_etudiant;
     private String id_matiere;

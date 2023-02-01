@@ -2,10 +2,19 @@
 /shelf/
 /workspace.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> b3da4aedb4ce5f8a82201128c33a38c972aca938
 # Editor-based HTTP Client requests
 /httpRequests/
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+<<<<<<< HEAD
 =======
 >>>>>>> 0ae602f8f32614ada9d975a678681e16604e4322
+=======
+
+ 
+>>>>>>> b3da4aedb4ce5f8a82201128c33a38c972aca938
