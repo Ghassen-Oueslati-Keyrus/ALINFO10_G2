@@ -57,4 +57,7 @@ public class Etudiant {
     public int hashCode() {
         return Objects.hash(name, id, email, phone);
     }
+    public Etudiant(){
+
+    }
 }
