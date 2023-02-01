@@ -57,7 +57,13 @@ public class Etudiant {
     public int hashCode() {
         return Objects.hash(name, id, email, phone);
     }
+
     public Etudiant(){
 
+    }
+
+       public String toString(){
+        return
+                "Hello ichrak, this is Etudiant !";
     }
 }
