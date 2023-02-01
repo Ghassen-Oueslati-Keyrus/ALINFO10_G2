@@ -42,4 +42,8 @@ public class Etudiant {
         this.email = email;
         this.phone = phone;
     }
+     public String toString(){
+        return
+                "Hello Ichrak, this is etudiant Model !";
+    }
 }
