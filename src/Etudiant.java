@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Etudiant {
     private String name;
     private String id;
@@ -41,5 +43,24 @@ public class Etudiant {
         this.id = id;
         this.email = email;
         this.phone = phone;
+    }
+<<<<<<< HEAD
+     public String toString(){
+        return
+                "Hello Ichrak, this is etudiant Model !";
+=======
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Etudiant etudiant = (Etudiant) o;
+        return name.equals(etudiant.name) && id.equals(etudiant.id) && email.equals(etudiant.email) && phone.equals(etudiant.phone);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, id, email, phone);
+>>>>>>> 95a253734b149dc3226224880390c4b54b43d4bd
     }
 }
