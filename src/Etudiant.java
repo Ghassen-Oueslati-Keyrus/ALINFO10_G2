@@ -58,7 +58,7 @@ public class Etudiant {
         return Objects.hash(name, id, email, phone);
     }
 
-    public Etudiant(){
+    public Etudiant() {
 
     }
 
@@ -70,5 +70,20 @@ public class Etudiant {
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
+    }
+
+    sealed interface Error {
+        record NameError() implements Error {
+        }
+
+        record EmailError() implements Error {
+        }
+
+        record IdError() implements Error {
+        }
+
+        record PhoneError() implements Error {
+        }
+
     }
 }
