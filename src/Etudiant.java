@@ -86,4 +86,9 @@ public class Etudiant {
         }
 
     }
+    public enum Type {
+        PASSPORT,
+        ID,
+        STAYPERMIT
+    }
 }
