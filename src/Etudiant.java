@@ -58,12 +58,40 @@ public class Etudiant {
         return Objects.hash(name, id, email, phone);
     }
 
-    public Etudiant(){
+    public Etudiant() {
 
     }
 
-       public String toString(){
-        return
-                "Hello ichrak, this is Etudiant !";
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Etudiant{" +
+                "name='" + name + '\'' +
+                ", id='" + id + '\'' +
+                ", email='" + email + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
+    }
+
+    sealed interface Error {
+        record NameError() implements Error {
+        }
+
+        record EmailError() implements Error {
+        }
+
+        record IdError() implements Error {
+        }
+
+        record PhoneError() implements Error {
+        }
+
+    }
+    public enum Type {
+        PASSPORT,
+        ID,
+        STAYPERMIT
+    }
+    public static final class Id {
+        
     }
 }
