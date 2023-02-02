@@ -91,4 +91,7 @@ public class Etudiant {
         ID,
         STAYPERMIT
     }
+    public static final class Id {
+        
+    }
 }
