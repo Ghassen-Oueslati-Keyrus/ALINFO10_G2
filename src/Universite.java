@@ -1,20 +1,20 @@
 import java.sql.SQLOutput;
 
 public class Universite {
-    public String id ;
+    public int id ;
     public String name;
     public String adresse;
 
-    public Universite(String id , String name, String adresse){
+    public Universite(int id , String name, String adresse){
         this.id = id;
         this.name = name;
         this.adresse = adresse;
     }
 
-     public String getId() {
+     public int getId() {
         return id;
     }
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
     
@@ -32,12 +32,19 @@ public class Universite {
         this.adresse = adresse;
     }
       public Universite(){
-        
-      }      
+              }
+
+    public Universite(int id) {
+        this.id = id;
+    }
 
     public String toString(){
         return
                 "Hello oumaima, this is universite !";
+    }
+
+    public String afficher() {
+        return "Universite{ id est : "+this.getId()+" le nom de votre université est "+this.getName()+" et se localise a "+this.getAdress() +"}";
     }
 
 
