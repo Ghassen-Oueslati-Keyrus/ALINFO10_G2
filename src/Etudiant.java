@@ -69,10 +69,10 @@ public class Etudiant {
     @java.lang.Override
     public java.lang.String toString() {
         return "Etudiant{" +
-                "name='" + name + '\'' +
-                ", id='" + id + '\'' +
-                ", email='" + email + '\'' +
-                ", phone='" + phone + '\'' +
+                "name:'" + name + '\'' +
+                ", id:'" + id + '\'' +
+                ", email:'" + email + '\'' +
+                ", phone:'" + phone + '\'' +
                 '}';
     }
 
@@ -91,13 +91,5 @@ public class Etudiant {
 
     }
 
-    public enum Type {
-        PASSPORT,
-        ID,
-        STAYPERMIT
-    }
-
-    public static final class Id {
-
-    }
+   
 }
