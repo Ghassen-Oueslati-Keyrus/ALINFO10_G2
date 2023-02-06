@@ -14,6 +14,8 @@ public class Main {
         }
         etudiant1.setPhone("23123678");
         System.out.println(etudiant1);
-        
+        etudiant2.setPhone("00034435");
+        System.out.println(etudiant2);
+
     }
 }
