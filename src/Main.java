@@ -12,5 +12,10 @@ public class Main {
         }else{
             System.out.println("student 1 is student 2 ");
         }
+        etudiant1.setPhone("23123678");
+        System.out.println(etudiant1);
+        etudiant2.setPhone("00034435");
+        System.out.println(etudiant2);
+
     }
 }
