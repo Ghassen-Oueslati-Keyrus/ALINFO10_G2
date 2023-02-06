@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public class Etudiant {
+
     private String name;
     private String id;
     private String email;
@@ -47,10 +48,13 @@ public class Etudiant {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Etudiant etudiant = (Etudiant) o;
-        return name.equals(etudiant.name) && id.equals(etudiant.id) && email.equals(etudiant.email) && phone.equals(etudiant.phone);
+        return name.equals(etudiant.name) && id.equals(etudiant.id) && email.equals(etudiant.email)
+                && phone.equals(etudiant.phone);
     }
 
     @Override
@@ -86,12 +90,14 @@ public class Etudiant {
         }
 
     }
+
     public enum Type {
         PASSPORT,
         ID,
         STAYPERMIT
     }
+
     public static final class Id {
-        
+
     }
 }
