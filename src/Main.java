@@ -7,5 +7,10 @@ public class Main {
         Etudiant etudiant2 = new Etudiant("ichrak friji","2","ichrak.friji@gmail.com","123456");
         var etudiant2_details = etudiant2.toString();
         System.out.println(etudiant2_details);
+        if(etudiant2.equals(etudiant1)){
+            System.out.println(" student 1 is not student 2 ");
+        }else{
+            System.out.println("student 1 is student 2 ");
+        }
     }
 }
