@@ -90,6 +90,13 @@ public class Etudiant {
         }
 
     }
+   
+    public Etudiant(String id,String name,String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        
+    }
  
     System.out.println("conflict is here");
    
