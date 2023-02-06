@@ -97,5 +97,7 @@ public class Etudiant {
         this.email = email;
         
     }
+ 
+    System.out.println("conflict is here");
    
 }
