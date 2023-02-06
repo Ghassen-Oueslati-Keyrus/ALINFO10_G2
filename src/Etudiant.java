@@ -90,6 +90,11 @@ public class Etudiant {
         }
 
     }
-
+   
+    public Etudiant(String id,String name) {
+        this.id = id;
+        this.name = name;
+        
+    }
    
 }
