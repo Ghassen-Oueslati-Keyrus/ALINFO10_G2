@@ -35,18 +35,20 @@ public class Main {
         System.out.println(D2.toString());
         System.out.println("*****************************");
 
-        System.out.println("*****************************");
+        System.out.println("****************************************************************");
         Classroom Classroom1 = new Classroom(1,"1AINFO10",201);
+        Classroom1.afficher();
+        System.out.println("****************************************************************");
         System.out.println(Classroom1.toString());
         Classroom Classroom2 = new Classroom(2,"1AINFO11",500);
-        System.out.println(Classroom2.toString());
-        System.out.println("******************************");
+        System.out.println(Classroom2.toString()); 
+        System.out.println("****************************************************************"); 
         if(Classroom2.equals(Classroom1)){
-            System.out.println(" first Classroom 1 is not equal to the second Classroom  ");
+            System.out.println(" first Classroom is not equal to the second Classroom");
         }else{
-            System.out.println("first Classroom 1 is equal tothe second Classroom 2 ");
+            System.out.println("first Classroom is equal tothe second Classroom ");
         }
-        System.out.println("*****************************");
+        System.out.println("****************************************************************");
     }
 
 }
