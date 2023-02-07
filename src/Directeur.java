@@ -1,20 +1,37 @@
 import java.util.Objects;
 
 public class Directeur {
-    private long idDirecteur;
+    private String idDirecteur;
     private String DirectorName;
 
-    public Directeur(long idDirecteur, String DirectorName) {
+    public Directeur(String idDirecteur, String DirectorName) {
         this.idDirecteur = idDirecteur;
         this.DirectorName = DirectorName;
     }
 
-    public long getIdDirecteur() {
+  
+
+    public String getIdDirecteur() {
         return idDirecteur;
+    }
+
+    public void setIdDirecteur(String idDirecteur) {
+        this.idDirecteur = idDirecteur;
     }
 
     public String getDirectorName() {
         return DirectorName;
+    }
+ 
+    public void setDirectorName(String DirectorName) {
+        this.DirectorName = DirectorName;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Directeur [idDirecteur=" + idDirecteur + ", DirectorName=" + DirectorName + "]";
     }
 
     @Override

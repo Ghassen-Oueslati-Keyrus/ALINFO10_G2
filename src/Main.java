@@ -35,6 +35,13 @@ public class Main {
         System.out.println("Moyenne"+ note1.CalculerMoyenne());
         
 
+        System.out.println("*****************************");
+        Directeur D1 = new Directeur("1","wejdene bedoui");
+        System.out.println(D1.toString());
+        Directeur D2 = new Directeur("2","wejdene bedoui");
+        System.out.println(D2.toString());
+        System.out.println("*****************************");
+
     }
-    
+
 }
