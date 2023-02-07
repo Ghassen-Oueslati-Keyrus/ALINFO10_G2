@@ -76,17 +76,17 @@ public class Etudiant {
                 '}';
     }
 
-    sealed interface Error {
-        record NameError() implements Error {
+    public abstract interface Error {
+         static void NameError()  {
         }
 
-        record EmailError() implements Error {
+        static void EmailError(){
         }
 
-        record IdError() implements Error {
+        static void IdError()  {
         }
 
-        record PhoneError() implements Error {
+        static void PhoneError()  {
         }
 
     }
