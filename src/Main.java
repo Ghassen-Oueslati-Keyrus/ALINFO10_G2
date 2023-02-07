@@ -30,9 +30,9 @@ public class Main {
         System.out.println("id:"+etudiant2.getId());
 
         System.out.println("*****************************");
-        Directeur D1 = new Directeur("wejdene bedoui","1");
+        Directeur D1 = new Directeur("1","wejdene bedoui");
         System.out.println(D1.toString());
-        Directeur D2 = new Directeur("wejdene bedoui","2");
+        Directeur D2 = new Directeur("2","wejdene bedoui");
         System.out.println(D2.toString());
         System.out.println("*****************************");
 
