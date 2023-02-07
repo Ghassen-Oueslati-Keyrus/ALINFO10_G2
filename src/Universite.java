@@ -38,7 +38,6 @@ public class Universite {
     }
 
     public Universite() {
-
     }
 
     public String afficher() {
