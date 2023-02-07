@@ -1,4 +1,7 @@
+import java.util.Objects;
+
 public class Etudiant {
+
     private String name;
     private String id;
     private String email;
@@ -42,4 +45,60 @@ public class Etudiant {
         this.email = email;
         this.phone = phone;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+        Etudiant etudiant = (Etudiant) o;
+        return name.equals(etudiant.name) && id.equals(etudiant.id) && email.equals(etudiant.email)
+                && phone.equals(etudiant.phone);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, id, email, phone);
+    }
+
+    public Etudiant() {
+
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Etudiant{" +
+                "name:'" + name + '\'' +
+                ", id:'" + id + '\'' +
+                ", email:'" + email + '\'' +
+                ", phone:'" + phone + '\'' +
+                '}';
+    }
+
+    public abstract interface Error {
+         static void NameError()  {
+        }
+
+        static void EmailError(){
+        }
+
+        static void IdError()  {
+        }
+
+        static void PhoneError()  {
+        }
+
+    }
+   
+    public Etudiant(String id,String name,String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        
+    }
+ 
+    //System.out.println("conflict is here");
+    
+   
 }

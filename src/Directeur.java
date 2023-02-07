@@ -1,35 +1,53 @@
 import java.util.Objects;
 
 public class Directeur {
-    private long idDirecteur;
-    private String nomDirecteur;
+    private String idDirecteur;
+    private String DirectorName;
 
-    public Directeur(long idDirecteur, String nomDirecteur) {
+    public Directeur(String idDirecteur, String DirectorName) {
         this.idDirecteur = idDirecteur;
-        this.nomDirecteur = nomDirecteur;
+        this.DirectorName = DirectorName;
     }
 
-    public long getIdDirecteur() {
+  
+
+    public String getIdDirecteur() {
         return idDirecteur;
     }
 
-    public String getNomDirecteur() {
-        return nomDirecteur;
+    public void setIdDirecteur(String idDirecteur) {
+        this.idDirecteur = idDirecteur;
+    }
+
+    public String getDirectorName() {
+        return DirectorName;
+    }
+ 
+    public void setDirectorName(String DirectorName) {
+        this.DirectorName = DirectorName;
+    }
+
+
+
+    @Override
+    public String toString() {
+        return "Directeur [idDirecteur=" + idDirecteur + ", DirectorName=" + DirectorName + "]";
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Directeur directeur = (Directeur) o;
         return idDirecteur == directeur.idDirecteur &&
-                Objects.equals(nomDirecteur, directeur.nomDirecteur);
+                Objects.equals(DirectorName, directeur.DirectorName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idDirecteur, nomDirecteur);
+        return Objects.hash(idDirecteur, DirectorName);
     }
-
 
 }
