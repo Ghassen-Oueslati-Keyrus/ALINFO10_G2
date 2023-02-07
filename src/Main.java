@@ -11,8 +11,6 @@ public class Main {
         var  etudiant1_details = etudiant1.toString();
         System.out.println(etudiant1_details);
         Etudiant etudiant2 = new Etudiant("ichrak friji","2","ichrak.friji@gmail.com","22");
-        Note note1 = new Note( "1","2","1" , "12");
-        Note note2 = new Note( "2","2","2" , "15");
         var etudiant2_details = etudiant2.toString();
         System.out.println(etudiant2_details);
         System.out.println("******************************");
@@ -29,10 +27,6 @@ public class Main {
         System.out.println("*****************************");
         System.out.println("Nom:"+etudiant1.getName());
         System.out.println("id:"+etudiant2.getId());
-        System.out.println("note1:"+note1.getNote());
-        System.out.println("note2:"+note2.getNote());
-        System.out.println("Moyenne"+ note1.CalculerMoyenne());
-        
 
         System.out.println("*****************************");
         Directeur D1 = new Directeur("1","wejdene bedoui");

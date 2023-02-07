@@ -53,9 +53,10 @@ class Note {
 
     public float CalculerMoyenne() {
         float moyenne = 0;
-        float n = Float.parseFloat(this.note);
-        moyenne += n;
-        return moyenne;
+        for (int i = 0; i < note.length(); i++) {
+            moyenne += note.charAt(i);
+        }
+        return moyenne / note.length();
     }
 
 }
