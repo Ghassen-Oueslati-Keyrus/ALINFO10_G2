@@ -1,6 +1,15 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         System.out.println("Hello we are ALINFO10_G2");
+
+        Universite U1 = new Universite(1," Université de Carthage " , "Carthage ");
+        System.out.println(U1.toString());
+        System.out.println(U1.afficher());
+
+        Universite U2 = new Universite(2," iset Rades " , "Rades ");
+        System.out.println(U2.toString());
+        System.out.println(U2.afficher());
+
         Etudiant etudiant1 = new Etudiant("ichrak friji","1","ichrak.friji@esprit.tn","12345678");
         var etudiant1_details = etudiant1.toString();
         System.out.println(etudiant1_details);
