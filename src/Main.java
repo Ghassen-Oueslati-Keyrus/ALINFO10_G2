@@ -28,8 +28,14 @@ public class Main {
         System.out.println("*****************************");
         System.out.println("Nom:"+etudiant1.getName());
         System.out.println("id:"+etudiant2.getId());
-        
+
+        System.out.println("*****************************");
+        Directeur D1 = new Directeur("wejdene bedoui","1");
+        System.out.println(D1.toString());
+        Directeur D2 = new Directeur("wejdene bedoui","2");
+        System.out.println(D2.toString());
+        System.out.println("*****************************");
 
     }
-    
+
 }
