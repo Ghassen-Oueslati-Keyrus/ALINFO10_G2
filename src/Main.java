@@ -42,7 +42,7 @@ public class Main {
         System.out.println(Classroom1.toString());
         Classroom Classroom2 = new Classroom(2,"1AINFO11",500);
         System.out.println(Classroom2.toString());
-        System.out.println("****************************************************************");
+        System.out.println("****************************************************************"); 
         if(Classroom2.equals(Classroom1)){
             System.out.println(" first Classroom is not equal to the second Classroom");
         }else{
