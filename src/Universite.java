@@ -40,11 +40,16 @@ public class Universite {
     public Universite() {
     }
 
-    public String afficher() {
-        return "Universite{ id est : "+this.getId()+" le nom de votre université est "+this.getName()+" et se localise a "+this.getAdress() +"}";
+    @Override
+    public String toString() {
+        return "Universite{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", adresse='" + adresse + '\'' +
+                '}';
     }
 
-    public String toString() {
+    public String message() {
         return "Hello oumaima, this is universite !";
     }
 
