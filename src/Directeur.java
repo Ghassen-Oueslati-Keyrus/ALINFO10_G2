@@ -19,8 +19,10 @@ public class Directeur {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
         Directeur directeur = (Directeur) o;
         return idDirecteur == directeur.idDirecteur &&
                 Objects.equals(DirectorName, directeur.DirectorName);
@@ -30,6 +32,5 @@ public class Directeur {
     public int hashCode() {
         return Objects.hash(idDirecteur, DirectorName);
     }
-
 
 }
