@@ -62,6 +62,8 @@ public class Main {
         }
         System.out.println("****************************************************************");
 
+        System.out.println("Final message of the project! thank you for your attention");
+
     }
 
 }
