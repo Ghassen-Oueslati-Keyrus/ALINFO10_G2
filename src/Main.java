@@ -12,8 +12,6 @@ public class Main {
         System.out.println(etudiant1_details);
         Etudiant etudiant2 = new Etudiant("ichrak friji", "2", "ichrak.friji@gmail.com", "22");
         String etudiant2_details = etudiant2.toString();
-        Note note1 = new Note("1", "1","1" ,"10");
-        note1.toString();
         System.out.println(etudiant2_details);
         System.out.println("******************************");
         if (etudiant2.equals(etudiant1)) {
@@ -64,7 +62,8 @@ public class Main {
         }
         System.out.println("****************************************************************");
         System.out.println("Final message of the project! thank you for your attention");
-
+        Note note1 = new Note("1", "1","1" ,"10");
+        System.out.println(note1.toString());
     }
 
 }
