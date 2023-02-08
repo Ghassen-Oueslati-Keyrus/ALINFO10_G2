@@ -14,7 +14,7 @@ jobs:
 
     - name: Delete inactive branches
       env:
-        INACTIVE_DAYS: 3
+        INACTIVE_DAYS: 10
       run: |
         branches=$(git branch -r --merged | grep -v HEAD)
         while read branch; do
