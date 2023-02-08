@@ -62,7 +62,8 @@ public class Main {
         }
         System.out.println("****************************************************************");
         System.out.println("Final message of the project! thank you for your attention");
-
+        Note note1 = new Note("1", "1","1" ,"10");
+        System.out.println(note1.toString());
     }
 
 }
