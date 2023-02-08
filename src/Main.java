@@ -49,8 +49,6 @@ public class Main {
             System.out.println("first Classroom is equal tothe second Classroom ");
         }
         System.out.println("****************************************************************");
-        System.out.println("Final message of the project! thank you for your attention");
-
     }
 
 }
